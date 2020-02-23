@@ -1,0 +1,18 @@
+[package]
+name = "report"
+version = "0.0.0"
+publish = false
+edition = "2018"
+
+[dependencies]
+gotham = { git = "https://github.com/gotham-rs/gotham", branch = "master" }
+
+askama = "0.8.0"
+mime = "0.3.12"
+
+[dependencies.rust-embed]
+version = "5.3.0"
+# enable this so that all of the assets come from the /assets folder in the root
+# see https://github.com/pyros2097/rust-embed/issues/99 for more info.
+#features = ["debug-embed"]
+

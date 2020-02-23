@@ -1,0 +1,8 @@
+/target
+**/*.rs.bk
+.idea
+**/target
+config.toml.example
+/test.db
+/runner.db
+/report/.sass-cache/
